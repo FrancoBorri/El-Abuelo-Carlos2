@@ -13157,3 +13157,24 @@ header.masthead .h1 {
   font-weight: bold;
   color: white;
 }
+
+
+.footer-logo {
+  max-height: 250px;
+  /* Limita la altura del logo */
+  display: block;
+  /* Para que respete el contenedor */
+  margin: 0 auto;
+  /* Centra horizontalmente */
+}
+
+
+.footer-col {
+  display: flex;
+  justify-content: center;
+  /* Centrado horizontal */
+  align-items: center;
+  /* Centrado vertical */
+  flex-direction: column;
+  /* Opcional, si querés que el contenido vaya debajo del logo */
+}
