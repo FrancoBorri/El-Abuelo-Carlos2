@@ -12770,15 +12770,15 @@ header.masthead::before {
   animation: zoomBg 10s ease-in-out infinite alternate;
 }
 
-@keyframes zoomBg {
-  0% {
-    transform: scale(1);
-  }
-
-  100% {
-    transform: scale(1.05);
+/* Ajustes para pantallas móviles */
+@media (max-width: 768px) {
+  header.masthead::before {
+    background: url("../assets/img/portada.Webp") center center / cover no-repeat;
+    animation: none;
+    /* opcional, si no querés animación en móvil */
   }
 }
+
 
 
 .title span {
