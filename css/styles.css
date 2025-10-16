@@ -13072,9 +13072,10 @@ header.masthead .h1 {
 
 /* Cada slide */
 .splide__slide {
-  padding: 30px;
+  padding: 40px;
   border-radius: 12px;
   text-align: center;
+  align-items: center;
   font-size: 16px;
   line-height: 1.5;
   overflow: visible;
@@ -13106,7 +13107,6 @@ header.masthead .h1 {
 
 .splide__track {
   position: relative;
-  padding: 50px 0;
 }
 
 #splide-history .splide__slide {
@@ -13137,7 +13137,7 @@ header.masthead .h1 {
 
   /* Ajustes específicos para la sección historia en móvil */
   #about .splide {
-    padding: 80px 20px 40px 20px;
+    padding: 80px 28px 10px 20px;
     /* Más espacio arriba entre título y slide */
   }
 
@@ -13169,6 +13169,7 @@ header.masthead .h1 {
 
   .splide__slide h1 {
     font-size: 2rem;
+    align-items: center;
     /* títulos más chicos en móvil */
   }
 
